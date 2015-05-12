@@ -15,6 +15,7 @@ Friendly indexer and viewer of PDF files by web application.
 python.exe -u scripts/convertpdf.py files/pdf files/target
 python.exe -u scripts/createstructureindex.py files/target
 python.exe -u scripts/updatesearchindex.py files/target files/target/structureindex.json
+python.exe -u scripts/download.py urlist.txt files/pdf
 ```
 
 ## Author

@@ -38,7 +38,7 @@ def signal_handler(signal, frame):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download to directory urls from file.")
     parser.add_argument('urlist', help="file with list of urls to download")
-    parser.add_argument('target', help="destination path, where files was donwloaded")
+    parser.add_argument('target', help="destination path, where files was downloaded")
     args = parser.parse_args()
 
     urlist = args.urlist

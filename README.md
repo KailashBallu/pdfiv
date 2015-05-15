@@ -16,7 +16,7 @@ Friendly indexer and viewer of PDF files by web application.
 
 ### Executing
 
-Converting PDF:
+#### Converting PDF:
 
 Default way: PDF > PNG + HTML + Text from PDF
 
@@ -27,14 +27,18 @@ $: python.exe -u scripts/convertpdf.py files/pdf files/target default
 OCR way: PDF > PNG > Text from OCR
 
 ```bash
-$: python.exe -u scripts/convertpdf.py files/pdf files/target default
+$: python.exe -u scripts/convertpdf.py files/pdf files/target ocr
 ```
 
-Other tools
+#### Creating metadata files
 
 ```bash
 $: python.exe -u scripts/createmetadata.py files/target
-$: python.exe -u scripts/updatesearchindex.py files/target
+```
+
+#### Other tools
+
+```bash
 $: python.exe -u scripts/download.py urlist.txt files/pdf
 ```
 
